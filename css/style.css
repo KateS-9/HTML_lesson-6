@@ -7,9 +7,330 @@ body {
   width: 100%;
   height: 100%;
   color:#333;
-  background: #fff; 
+  background: #fff;
   font-family: "Segoe UI", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size:0.94em;
-  line-height:135%;
+  font-size: 0.94em;
+  line-height: 135%;
+}
+
+aside, nav, footer, header, section {
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/*--------------------
+Главные блоки
+----------------------*/
+
+#wrapper {
+  margin-top: 40px;
+  width: 1200px;
+  margin: 0 auto;
+  height: auto !important;
+}
+
+.header {
+  width: 100%;
+  background: #0dbfe5;
+  height: 57px;
+  z-index: 4;
+}
+
+#headerInner {
+  position: relative;
+  border: 0 solid #333;
+  width: 1200px;
+  height: 250px;
+  margin: 0 auto;
+  margin-top: 0;
+}
+
+#content {
+  margin-top: 40px;
+}
+
+#content #colLeft{
+  background: #fff;
+  float: left;
+  width: 800px;
+  margin-right: 0;
+}
+
+#content #colRight {
+  margin-left: 45px;
+  float: left;
+  width: 350px;
+  position: relative;
+}
+
+#middle:after {
+  content: '.';
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+}
+
+/* Верхнее правое меню */
+
+.topMenuRight {
+  height: 57px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border: 0 solid #1FA2E1;
+}
+
+.topMenuRight ul li {
+  background: url(https://raw.githubusercontent.com/KateS-9/html_lesson6/main/images/line.png) 0 0 no-repeat;
+  float: left;
+  height: 57px;
+}
+
+.topMenuRight ul {
+  padding-left: 0;
+}
+
+.topMenuRight ul li a {
+  margin-top: 0;
+  font-weight: 100;
+  border-right: 0 solid #adadad;
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  line-height: 20px;
+  font-size: 18px;
+  padding: 16px 20px 21px 20px;
+}
+
+.topMenuRight ul li a:hover {
+  background: #fff;
+  color: #555;
+}
+
+/* Оформление иконок */
+
+.share-new {
+  z-index: 1;
+  position: absolute;
+  right: 0;
+  top: 14px;
+}
+
+.share-new a {
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  margin: 2px 0 2px 0;
+}
+
+.share-new .icon-twitter {
+  background: url(https://raw.githubusercontent.com/KateS-9/html_lesson6/main/images/twitter-variation.png) 0 center no-repeat;
+  padding: 4px 0 0 5px;
+  font-size: 17px;
+  margin-right: 3px;
+}
+
+.share-new .icon-rss {
+  background: url(https://raw.githubusercontent.com/KateS-9/html_lesson6/main/images/rss-variation.png) 0 center no-repeat;
+  padding: 4px 0 0 5px;
+  font-size: 17px;
+  margin-right: 0px;
+}
+
+.share-new .icon-mail {
+  background: url(https://raw.githubusercontent.com/KateS-9/html_lesson6/main/images/email-variation.png) 0 center no-repeat;
+  padding: 4px 0 0 5px;
+  font-size: 17px;
+  margin-right: 0px;
+}
+
+/*--------------------
+Логотип
+----------------------*/
+
+.logo {
+  position: absolute;
+  left: 0;
+  top: 90px;
+}
+
+.bottomMenu {
+  width: 1200px;
+  height: 70px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: url(https://raw.githubusercontent.com/KateS-9/html_lesson6/main/images/bgmenu.png) 0 0 repeat-x;
+}
+
+#dropdown_nav {
+  font-weight: bold;
+  display: inline-block;
+  list-style: none;
+  border-bottom: 0 solid #777;
+  margin-top: 18px;
+}
+
+#dropdown_nav li {
+  float: left;
+  position: relative;
+  display: inline-block;
+}
+
+#dropdown_nav li a {
+  font-weight: 100;
+  font-size: 18px;
+  color: #fff;
+  padding: 15px 22px 20px 22px;
+  background: url(https://raw.githubusercontent.com/KateS-9/html_lesson6/main/images/linemenu.png) right no-repeat;
+  -moz-transition: background-color 0.3s 0.01s ease;
+  -o-transition: background-color 0.3s 0.01s ease;
+  -webkit-transition: background-color 0.3s 0.01s ease;
+}
+
+#dropdown_nav li a:hover {
+  background: #000;
+  text-decoration: none;
+  color: #0dbfe5;
+}
+
+#dropdown_nav li a.first {
+  -moz-border-radius: 5px 0 0 5px;
+  -webkit-border-radius: 5px 0 0 5px;
+}
+
+/* Выпадающее меню */
+#dropdown_nav .sub_nav {
+  z-index: 4;
+  width: 180px;
+  padding: 0;
+  position: absolute;
+  top: 42px;
+  left: 0;
+  border: 0 solid #ddd;
+  border-top: none;
+  background: #000;
+}
+
+#dropdown_nav .sub_nav li {
+  width: 180px;
+  padding: 0;
+}
+
+#dropdown_nav .sub_nav li a {
+  background: none;
+  font-weight: normal;
+  font-size: 15px;
+  display: block;
+  border-bottom: 0 solid #e5e0b3;
+  padding-left: 10px;
+  color: #fff;
+}
+
+#dropdown_nav .sub_nav li a:hover {
+  background: #222;
+  color: #0dbfe5;
+}
+
+.raz {
+  margin: 0 auto;
+  border: 0 solid #333;
+  background: #fff;
+  width: 116px;
+  height: 29px;
+  margin-bottom: 50px;
+  background: url(https://raw.githubusercontent.com/KateS-9/html_lesson6/main/images/raz.png) 0 0 no-repeat;
+}
+
+.postBox {
+  border: 0 solid #333;
+  background: #fff;
+  width: 700px;
+  margin-top: 0;
+  margin-left: 0;
+  margin-bottom: 50px;
+}
+
+.postBox h2 a {
+  font-family: "Segoe UI Semilight", "Segoi UI", Tahoma, Helvetica, Sans-Serif;
+  color: #000;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 33px;
+  line-height: 35px;
+  -moz-transition: all 0.3s 0.01s ease;
+  -o-transition: all 0.3s 0.01s ease;
+  -webkit-transition: all 0.3s 0.01s ease;
+}
+
+.postBox h2 a:hover {
+  color: #0dbfe5;
+}
+
+.postBox .textPreview {
+  border: 0 solid #333;
+  width: 800px;
+  margin-bottom: 30px;
+}
+
+.postBox .textPreview p {
+  margin-top: 0;
+}
+
+.postBox .postThumb {
+  margin: 0 0 15px 0;
+}
+
+.postBox .postMeta {
+  padding-bottom: 15px;
+  clear: left;
+  overflow: hidden;
+}
+
+.more-link a {
+  border-radius: 3px;
+  background: #0dbfe5;
+  margin-top: 30px;
+  font-weight: 600;
+  color: #fff;
+  font-size: 17px;
+  padding: 6px 25px 9px 25px;
+  -moz-transition: all 0.3s 0.01s ease;
+  -o-transition: all 0.3s 0.01s ease;
+  -webkit-transition: all 0.3s 0.01s ease;
+}
+
+.more-link a:hover {
+  background: #000;
+  color: #0dbfe5;
+}  
+
+#lpblock {
+  position: relative;
+  height: 105px;
+  width: 1200px;
+  background: #eeeeee;
+  margin: 0 auto;
+  margin-top: 193px;
+}
   
+  #lpblock h2 {
+  font-family: "Segoe UI", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 48px;
+  text-align: center;
+  font-weight: 100;
+  padding-top: 35px;
+  color: #a4a4a4;
 }
