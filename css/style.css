@@ -222,6 +222,7 @@ a:hover {
   border: 0 solid #ddd;
   border-top: none;
   background: #000;
+  display: none;
 }
 
 #dropdown_nav:hover .sub_nav {
@@ -231,7 +232,6 @@ a:hover {
 #dropdown_nav .sub_nav li {
   width: 180px;
   padding: 0;
-  display: none;
 }
 
 #dropdown_nav .sub_nav li a {
