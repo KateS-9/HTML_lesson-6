@@ -186,6 +186,7 @@ a:hover {
 #dropdown_nav li {
   float: left;
   position: relative;
+  display: inline-block;
 }
 
 #dropdown_nav li a {
@@ -203,7 +204,6 @@ a:hover {
   background: #000;
   text-decoration: none;
   color: #0dbfe5;
-  display: block;
 }
 
 #dropdown_nav li a.first {
@@ -222,11 +222,6 @@ a:hover {
   border: 0 solid #ddd;
   border-top: none;
   background: #000;
-  display: none;
-}
-
-#dropdown_nav:hover .sub_nav {
-  display: block;
 }
 
 #dropdown_nav .sub_nav li {
