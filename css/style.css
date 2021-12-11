@@ -196,6 +196,7 @@ a:hover {
   font-weight: 100;
   font-size: 18px;
   font-family: 'Noto Sans';
+  letter-spacing: -0.8px;
   color: #fff;
   padding: 15px 22px 20px 22px;
   background: url(https://raw.githubusercontent.com/KateS-9/html_lesson6/main/images/linemenu.png) right no-repeat;
