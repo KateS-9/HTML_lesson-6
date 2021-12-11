@@ -267,6 +267,10 @@ a:hover {
   margin-bottom: 50px;
 }
 
+.postBox h2 {
+  padding: 0 0 10px 0;
+}
+
 .postBox h2 a {
   color: #000;
   font-style: normal;
@@ -278,7 +282,6 @@ a:hover {
   -o-transition: all 0.3s 0.01s ease;
   -webkit-transition: all 0.3s 0.01s ease;
   font-family: 'Noto Sans';
-  margin-bottom: 10px;
 }
 
 .postBox h2 a:hover {
