@@ -273,8 +273,9 @@ a:hover {
 
 .info {
   font-family: 'Noto Sans';
-  font-size: 13px;
-  color: #bbbbbc;
+  font-size: 14px;
+  color: #acacaffd;
+  font-weight: 300;
 }
 
 .postBox h2 a {
