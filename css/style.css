@@ -354,3 +354,30 @@ a:hover {
   color: #bbbbbc;
   letter-spacing: 1px;
  }
+
+ #form-query {
+  position: relative;
+  background: #eeeeee;
+  border: 0 solid #e4e4e4;
+  width: 335px;
+  height: 31px;
+  padding: 8px 10px 7px;
+  font-weight: 100;
+  font-size: 18px;
+  color: #000;
+  margin-bottom: 30px;
+ }
+
+ #form-querysub {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  width: 17px;
+  height: 17px;
+  background: url(https://raw.githubusercontent.com/KateS-9/html_lesson6/main/images/search2.png) 0 0 no-repeat;
+  border: 0 dashed #333;
+ }
+
+ #form-querysub:hover {
+   cursor: pointer;
+ }
