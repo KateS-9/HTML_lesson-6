@@ -298,11 +298,12 @@ a:hover {
   width: 800px;
   margin-bottom: 30px;
   font-family: 'Noto Sans';
-  font-weight: 100;
+  font-weight: 300;
+  letter-spacing: -0.4px;
 }
 
 .postBox .textPreview p {
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 .postBox .postThumb {
