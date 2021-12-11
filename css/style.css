@@ -392,11 +392,12 @@ a:hover {
 .rightBox h2 {
   width: 335px;
   background: #f7f7f7 url(https://raw.githubusercontent.com/KateS-9/html_lesson6/main/images/h2img.png) 320px 14px no-repeat;
-  font-size: 18px;
-  font-family: 'Segoe UI Semibold', Tahoma, Helvetica, Sans-Serif;
+  font-size: 17px;
+  font-family: 'Noto Sans';
   color: #333;
   display: block;
   padding: 10px 0 15px 20px;
+  font-weight: 500;
 }
 
 .rightBox ul li {
