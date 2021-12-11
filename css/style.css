@@ -111,7 +111,7 @@ a:hover {
   line-height: 20px;
   font-size: 18px;
   padding: 16px 20px 21px 20px;
-  font-family: 'Noto Sans';
+  font-family: 'Helvetica';
   font-weight: 300;
   letter-spacing: -0.8px;
 }
@@ -194,7 +194,7 @@ a:hover {
 #dropdown_nav li a {
   font-weight: 300;
   font-size: 18px;
-  font-family: 'Noto Sans';
+  font-family: 'Helvetica';
   letter-spacing: -1px;
   color: #fff;
   padding: 15px 22px 20px 22px;
@@ -330,10 +330,10 @@ a:hover {
 }
   
   #lpblock h2 {
-    font-family: 'Times New Roman';
+  font-family: 'Times New Roman';
   font-size: 43px;
   text-align: center;
-  font-weight: 100;
+  font-weight: 500;
   padding-top: 35px;
   color: #bbbbbc;
   letter-spacing: 1px;
