@@ -345,7 +345,7 @@ a:hover {
   margin-top: 193px;
 }
   
-  #lpblock h2 {
+#lpblock h2 {
   font-family: 'Times New Roman';
   font-size: 43px;
   text-align: center;
@@ -353,9 +353,9 @@ a:hover {
   padding-top: 35px;
   color: #bbbbbc;
   letter-spacing: 1px;
- }
+}
 
- #form-query {
+#form-query {
   position: relative;
   background: #eeeeee;
   border: 0 solid #e4e4e4;
@@ -366,9 +366,9 @@ a:hover {
   font-size: 18px;
   color: #000;
   margin-bottom: 30px;
- }
+}
 
- #form-querysub {
+#form-querysub {
   position: absolute;
   right: 15px;
   top: 15px;
@@ -376,20 +376,20 @@ a:hover {
   height: 17px;
   background: url(https://raw.githubusercontent.com/KateS-9/html_lesson6/main/images/search2.png) 0 0 no-repeat;
   border: 0 dashed #333;
- }
+}
 
- #form-querysub:hover {
+#form-querysub:hover {
   cursor: pointer;
- }
+}
 
- .rightBox {
+.rightBox {
   margin-top: 0;
   margin-left: 0;
   width: 330px;
   margin-bottom: 30px;
- }
+}
 
- .rightBox h2 {
+.rightBox h2 {
   width: 335px;
   background: #f7f7f7 url(https://raw.githubusercontent.com/KateS-9/html_lesson6/main/images/h2img.png) 320px 14px no-repeat;
   font-size: 18px;
@@ -397,20 +397,67 @@ a:hover {
   color: #333;
   display: block;
   padding: 10px 0 15px 20px;
- }
+}
 
- .rightBox ul li {
+.rightBox ul li {
   width: 350px;
   padding: 10px 0;
   border-bottom: 1px solid #f6f6f6;
   font-size: 14px;
   line-height: 16px;
- }
+}
 
- .rightBox a {
+.rightBox a {
   color: #333;
- }
+}
 
- .rightBox a:hover {
-   color: #0dbfe5;
- }
+.rightBox a:hover {
+  color: #0dbfe5;
+}
+
+#footer {
+  margin-top: 50px;
+  height: 100px;
+  width: 100%;
+  background: #0dbfe5;
+}
+
+#footerInner {
+  position: relative; 
+  border: 0 solid #000;
+  width: 1200px;
+  margin: 0 auto;
+  height: 100px;
+}
+
+#footerlogo {
+  position: absolute;
+  left: 0;
+  top: 25px;
+}
+
+.footernav {
+  position: absolute;
+  right: 0;
+  top: 35px;
+}
+
+.footernav ul li {
+  float: left;
+}
+
+.footernav ul li a {
+  margin-top: 0;
+  font-weight: 100;
+  border-right: 0 solid #adadad;
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  line-height: 20px;
+  font-size: 18px;
+  padding: 0 0 0 25px;
+}
+
+.footernav ul li a:hover {
+  color: #333;
+}
