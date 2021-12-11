@@ -111,9 +111,7 @@ Main blocks
   line-height: 20px;
   font-size: 18px;
   padding: 16px 20px 21px 20px;
-  font-family: 'Noto Sans';
   font-weight: 300;
-  letter-spacing: -0.8px;
 }
 
 .topMenuRight ul li a:hover {
@@ -194,8 +192,6 @@ Logo
 #dropdown_nav li a {
   font-weight: 300;
   font-size: 18px;
-  font-family: 'Noto Sans';
-  letter-spacing: -1px;
   color: #fff;
   padding: 15px 22px 20px 22px;
   background: url(https://raw.githubusercontent.com/KateS-9/html_lesson6/main/images/linemenu.png) right no-repeat;
@@ -272,7 +268,6 @@ Logo
 }
 
 .info {
-  font-family: 'Noto Sans';
   font-size: 14px;
   color: #6d6d70fd;
   font-weight: 300;
@@ -283,12 +278,11 @@ Logo
   font-style: normal;
   font-weight: 200;
   font-size: 31px;
-  letter-spacing: -0.1px;
   line-height: 35px;
   -moz-transition: all 0.3s 0.01s ease;
   -o-transition: all 0.3s 0.01s ease;
   -webkit-transition: all 0.3s 0.01s ease;
-  font-family: 'Noto Sans';
+  font-family: "Segoe UI Semilight", "Segoe UI", Tahoma, Helvetica, sans-serif;
 }
 
 .postBox h2 a:hover {
@@ -299,9 +293,7 @@ Logo
   border: 0 solid #333;
   width: 800px;
   margin-bottom: 30px;
-  font-family: 'Noto Sans';
   font-weight: 300;
-  letter-spacing: -0.2px;
 }
 
 .postBox .textPreview p {
@@ -329,7 +321,6 @@ Logo
   -moz-transition: all 0.3s 0.01s ease;
   -o-transition: all 0.3s 0.01s ease;
   -webkit-transition: all 0.3s 0.01s ease;
-  font-family: 'Noto Sans';
 }
 
 .more-link a:hover {
@@ -346,13 +337,12 @@ Logo
 }
   
 #lpblock h2 {
-  font-family: 'Times New Roman';
+  font-family: "Segoe UI", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 43px;
   text-align: center;
   font-weight: 500;
   padding-top: 35px;
   color: #bbbbbc;
-  letter-spacing: 1px;
 }
 
 #form-query {
@@ -393,11 +383,11 @@ Logo
   width: 335px;
   background: #f7f7f7 url(https://raw.githubusercontent.com/KateS-9/html_lesson6/main/images/h2img.png) 320px 14px no-repeat;
   font-size: 17px;
-  font-family: 'Noto Sans';
   color: #333;
   display: block;
   padding: 10px 0 15px 20px;
   font-weight: 500;
+  font-family: 'Segoe UI Semibold', Tahoma, Helvetica, sans-serif;
 }
 
 .rightBox ul li {
@@ -456,9 +446,7 @@ Logo
   line-height: 20px;
   font-size: 18px;
   padding: 0 0 0 25px;
-  font-family: 'Noto Sans';
   font-weight: 300;
-  letter-spacing: -0.8px;
 }
 
 .footernav ul li a:hover {
