@@ -274,14 +274,15 @@ a:hover {
 .info {
   font-family: 'Noto Sans';
   font-size: 13px;
+  color: #bbbbbc;
 }
 
 .postBox h2 a {
   color: #000;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 200;
   font-size: 31px;
-  letter-spacing: -0.4px;
+  letter-spacing: -0.1px;
   line-height: 35px;
   -moz-transition: all 0.3s 0.01s ease;
   -o-transition: all 0.3s 0.01s ease;
@@ -299,11 +300,11 @@ a:hover {
   margin-bottom: 30px;
   font-family: 'Noto Sans';
   font-weight: 300;
-  letter-spacing: -0.4px;
+  letter-spacing: -0.2px;
 }
 
 .postBox .textPreview p {
-  margin-top: 15px;
+  margin-top: 16px;
 }
 
 .postBox .postThumb {
