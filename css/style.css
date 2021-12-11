@@ -114,6 +114,7 @@ a:hover {
   padding: 16px 20px 21px 20px;
   font-family: 'Noto Sans';
   font-weight: 300;
+  letter-spacing: 1px;
 }
 
 .topMenuRight ul li a:hover {
