@@ -322,7 +322,6 @@ a:hover {
 }  
 
 #lpblock {
-  position: relative;
   height: 100px;
   width: 1200px;
   background: #eeeeee;
@@ -332,9 +331,10 @@ a:hover {
   
   #lpblock h2 {
     font-family: 'Times New Roman';
-  font-size: 45px;
+  font-size: 43px;
   text-align: center;
   font-weight: 100;
   padding-top: 35px;
   color: #a4a4a4;
+  letter-spacing: 1px;
  }
