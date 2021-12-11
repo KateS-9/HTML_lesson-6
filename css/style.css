@@ -277,6 +277,7 @@ a:hover {
   -moz-transition: all 0.3s 0.01s ease;
   -o-transition: all 0.3s 0.01s ease;
   -webkit-transition: all 0.3s 0.01s ease;
+  font-family: 'Noto Sans';
 }
 
 .postBox h2 a:hover {
