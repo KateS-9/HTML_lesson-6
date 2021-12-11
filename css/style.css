@@ -30,7 +30,7 @@ a:hover {
 }
 
 /*--------------------
-Главные блоки
+Main blocks
 ----------------------*/
 
 #wrapper {
@@ -82,7 +82,7 @@ a:hover {
   height: 0;
 }
 
-/* Верхнее правое меню */
+/* Top right menu */
 
 .topMenuRight {
   height: 57px;
@@ -121,7 +121,7 @@ a:hover {
   color: #555;
 }
 
-/* Оформление иконок */
+/* Icon decoration */
 
 .share-new {
   z-index: 1;
@@ -159,7 +159,7 @@ a:hover {
 }
 
 /*--------------------
-Логотип
+Logo
 ----------------------*/
 
 .logo {
@@ -215,7 +215,7 @@ a:hover {
   -webkit-border-radius: 5px 0 0 5px;
 }
 
-/* Выпадающее меню */
+/* Drop-down menu */
 #dropdown_nav .sub_nav {
   z-index: 4;
   width: 180px;
