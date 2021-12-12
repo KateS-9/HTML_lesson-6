@@ -104,6 +104,7 @@ Main blocks
 
 .topMenuRight ul li a {
   margin-top: 0;
+  font-weight: 100;
   border-right: 0 solid #adadad;
   display: block;
   color: #fff;
@@ -111,7 +112,6 @@ Main blocks
   line-height: 20px;
   font-size: 18px;
   padding: 16px 20px 21px 20px;
-  font-weight: 300;
 }
 
 .topMenuRight ul li a:hover {
@@ -190,7 +190,7 @@ Logo
 }
 
 #dropdown_nav li a {
-  font-weight: 300;
+  font-weight: 100;
   font-size: 18px;
   color: #fff;
   padding: 15px 22px 20px 22px;
@@ -274,15 +274,15 @@ Logo
 }
 
 .postBox h2 a {
+  font-family: "Segoe UI Semilight", "Segoe UI", Tahoma, Helvetica, sans-serif;
   color: #000;
   font-style: normal;
-  font-weight: 200;
-  font-size: 31px;
+  font-weight: 100;
+  font-size: 33px;
   line-height: 35px;
   -moz-transition: all 0.3s 0.01s ease;
   -o-transition: all 0.3s 0.01s ease;
   -webkit-transition: all 0.3s 0.01s ease;
-  font-family: "Segoe UI Semilight", "Segoe UI", Tahoma, Helvetica, sans-serif;
 }
 
 .postBox h2 a:hover {
@@ -317,7 +317,7 @@ Logo
   font-weight: 600;
   color: #fff;
   font-size: 16px;
-  padding: 7.5px 25.5px 10px 25.5px;
+  padding: 6px 25px 9px 25px;
   -moz-transition: all 0.3s 0.01s ease;
   -o-transition: all 0.3s 0.01s ease;
   -webkit-transition: all 0.3s 0.01s ease;
