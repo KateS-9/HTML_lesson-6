@@ -211,39 +211,6 @@ Logo
   -webkit-border-radius: 5px 0 0 5px;
 }
 
-/* Drop-down menu */
-#dropdown_nav .sub_nav {
-  z-index: 4;
-  width: 180px;
-  padding: 0;
-  position: absolute;
-  top: 42px;
-  left: 0;
-  border: 0 solid #ddd;
-  border-top: none;
-  background: #000;
-}
-
-#dropdown_nav .sub_nav li {
-  width: 180px;
-  padding: 0;
-}
-
-#dropdown_nav .sub_nav li a {
-  background: none;
-  font-weight: normal;
-  font-size: 15px;
-  display: block;
-  border-bottom: 0 solid #e5e0b3;
-  padding-left: 10px;
-  color: #fff;
-}
-
-#dropdown_nav .sub_nav li a:hover {
-  background: #222;
-  color: #0dbfe5;
-}
-
 .raz {
   margin: 0 auto;
   border: 0 solid #333;
